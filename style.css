@@ -53,7 +53,7 @@ h2 {
 
 p, li, strong {
     font-size: clamp(1.4rem, 1w + 0.4rem, 2rem);
-    line-height: clamp(1.8rem, 1w + 1rem, 2.5rem);
+    line-height: clamp(1.8rem, 1w + 1rem, 2.5git addrem);
 }
 
 ul, ol {
@@ -65,6 +65,9 @@ ul {
 }
 
 @media (min-width: 1120px) {
+    body{
+        background-image: url(assets/vintage-image.jpg) ;
+    }
     main {
         flex-direction: row;
         max-width: fit-content;
