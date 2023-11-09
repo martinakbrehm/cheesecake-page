@@ -65,9 +65,7 @@ ul {
 }
 
 @media (min-width: 1120px) {
-    body{
-        background-image: url(assets/vintage-image.jpg) ;
-    }
+
     main {
         flex-direction: row;
         max-width: fit-content;
